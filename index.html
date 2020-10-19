@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="author" content="Amal Abdullah">
+    <meta name="description" content="This Web for Dice Game Play homework">
+    <meta name="keywords" content="AMAL , homework, Amal, Dice player">
+
+    <title>Let's Play Dice</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- add icon link -->
+    <link rel = "icon" href ="dice-game.png" type = "image/x-icon">
+  </head>
+  <body>
+      <h1> Hi :) Let's play "Rolling Dice" </h1>
+    <br>
+    <hr>
+  <div class="left">
+    <div class="right">
+      <p class="p1" type="p1"> This website display Dice Rolling game </p>
+      <p class="p1" type="p1"> You can play with your friends,</p>
+      <p class="p1" type="p1"> Hope you enjoy :) </p>
+      <p class="p1" type="p1">first enter players name</p>
+      <br><br>
+        <button class="butn" type="button" onClick="insertNames()">Players Name</button>
+  </div>
+  </div>
+<div class="right">
+  <table>
+    <tr>
+      <td>
+        <div class="dice">
+        <p class="Player1">Player#1</p>
+        </div>
+      </td>
+      <td>
+        <div class="dice"><img class="img1" src="dice6.png"></div>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <div class="dice">
+        <p class="Player2">Player#2</p>
+        </div>
+    </td>
+      <td>
+        <div class="dice"><img class="img2" src="dice6.png"></td></div>
+    </tr>
+    <tr>
+      <td><button class="butn" type="button" onClick="rollingDice()">Rolling!!</button></td>
+    </tr>
+  </table>
+</div>
+<script type="application/javascript" src="gameCode.js"></script>
+  </body>
+</html>
